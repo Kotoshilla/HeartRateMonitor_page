@@ -1,0 +1,232 @@
+@media (max-width: 991px) {
+    .container {
+        padding: 0 25px;
+    }
+    .advantage__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .advantage__inner {
+        margin: 0 10px;
+        margin-top: 50px;
+    }
+    .catalog {
+
+        &-item {
+            margin: 20px auto;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+    .header__official {
+        display: none;
+    }
+    .advantage__subheader {
+        font-size: 20px;
+    }
+    .advantage__descr {
+        font-size: 16px;
+    }
+    .carousel {
+
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+
+        &-item {
+            padding: 20px 10px 20px 10px;
+            width: 260px;
+            margin: 20px auto;
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .container {
+        padding: 0 10px;
+    }
+    .promo {
+        padding-bottom: 40px;
+        &__wrapper {
+            margin-top: 80px;
+        }
+        .header {
+            &__logo {
+                width: 150px;
+            }
+    
+            &__phone {
+                font-size: 15px;
+            }
+            .button {
+                width: 130px;
+                font-size: 10px;
+            }
+        }
+        &__link {
+            font-size: 13px;
+        }
+        &__header {
+            text-align: center;
+            font-size: 35px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 22px;
+        }
+        &__icons {
+            width: auto;
+            margin-top: 25px;
+            flex-direction: column;
+        }
+        &__icon {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .button_main {
+            width: 225px;
+            height: 45px;
+            font-size: 14px;
+        }
+    }
+    .advantage {
+        padding-bottom: 45px;
+        &____subheader {
+            font-size: 22px;
+        }
+        &__descr { 
+            font-size: 17px;
+            line-height: 22px;
+        }
+    }
+    .title {
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .consultation {
+        padding-top: 50px;
+        height: 640px;
+        &__descr {
+            font-size: 19px;
+            margin-top: 35px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: 90%;
+        margin:0 auto;
+        margin-top: 50px;
+    }
+    .carousel {
+        padding-bottom: 60px;
+
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+
+        &__tabs {
+            margin-top: 45px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 10px;
+            &:hover {
+                transform: skewX(-25deg) scale(1);
+                box-shadow: 0 0 0 0;
+                border: 2px solid #d0d0d0;
+            }
+        }
+        &-item {
+
+            &:hover {
+                transform: scale(1);
+                box-shadow: 0 0 0 0;
+            }
+        }
+
+    }
+    .reviews {
+
+        &__inner {
+            flex-direction: column;
+    
+            &-img {
+                margin: 0 auto;
+            }
+            &-header {
+                margin-top: 45px;
+                text-align: center;
+            }
+            &-descr {
+                margin-top: 25px;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 312px;
+            padding: 50px 0 60px 0;
+        }
+        &__address {
+            font-size: 18px;
+        }
+        &__social-item {
+
+            &:hover {
+                transform: scale(1);
+                box-shadow: 0 0 0 0;
+            }
+        }
+    }
+    .button {
+        
+        &:hover {
+            transform: scale(1);
+            box-shadow: 0 0 0 0;
+        }
+    }
+    .modal {
+
+        &__close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 40px;
+            
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }   
+    .page-up {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    .modal {
+        width: 90%;
+    }
+}
+

@@ -1,0 +1,63 @@
+.advantage {
+    background-color: #F6F6F6;
+    min-height: 473px;
+    padding-top: 73px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__inner {
+        width: 275px;
+        margin-top: 60px;
+        text-align: center;
+        &_cup {
+            &:hover {
+                animation-name: cup;
+                animation-duration: 1.1s;
+                animation-iteration-count: 2;
+            }
+        }
+        &_heart {
+            &:hover {
+                animation-name: heartbeet;
+                animation-duration: 1.1s;
+                animation-iteration-count: 3;
+            }
+        }
+        &_shoe {
+            &:hover {
+                animation-name: shoe;
+                animation-duration: 1.1s;
+                animation-iteration-count: 2;
+              
+            }
+        }
+        img {
+            margin: 0 auto;
+        }
+    }
+    &__subheader {
+        color: #0D0D0D;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__descr {
+        color: #0D0D0D;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 18px;
+        span {
+            color: #FF0000;         
+        }
+    }
+}
+
+.title {
+    color: #0D0D0D;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
